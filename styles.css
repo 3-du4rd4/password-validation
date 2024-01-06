@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Gamja+Flower');
+
+*{
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gamja Flower', sans-serif;
+}
+
+body{
+    background-color: #FCEDDA;
+}
+
+.containers{
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+
+#info{
+    width: 350px;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left; 
+    border-radius: 10px; 
+    color : #FCEDDA;
+    border: 3px solid #EE4E34;
+    background-color: #FC766A;
+}
+
+label{
+    display: none;
+}
+
+p{
+    font-size: large;
+    font-weight: bold;
+}
+
+.rules{
+    font-size: large;
+    list-style-position: inside;
+}
+
+#password-container{
+    margin-top: 10px;
+}
+
+#password{ 
+    width: 100%;
+    font-size: medium;
+    padding: 2px 5px;
+    border-radius: 10px;
+    border: 3px solid #EE4E34;
+    background-color: #FCEDDA;
+    color: rgba(233, 79, 77, 0.5);
+}
+
+input::-ms-reveal, input::-ms-clear {
+    display: none;
+}
+
+::placeholder {
+    color: rgba(233, 79, 77, 0.5);
+}
+
+i {
+    margin-left: -30px;
+    cursor: pointer;
+    color: #FC766A;
+}
+
+.botao{
+    position: relative;
+    background-color: black;
+}
+
+#finish{
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    font-size: large;
+    margin-top: 20px;
+    position: absolute;
+    background: none;
+    border-radius: 5px;
+    border: 1px solid #EE4E34;
+    color: rgba(233, 79, 77, 0.5);
+    transform: translate(-50%, -50%);
+}
+
+#finish:hover{
+    color: #FCEDDA;
+    background-color: #FC766A;
+    border: 2px solid #EE4E34;
+}
+
+.pato{
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 35% auto;
+}
+
+#duck{
+    width: 50px;
+    display: none;
+}

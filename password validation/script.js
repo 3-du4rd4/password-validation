@@ -18,7 +18,7 @@ function checkPassword(){
     const value =  document.getElementById("password").value;
     let flag = true;
 
-    const hasMinLength = (value) => value >= 8 ? "true" : "false";
+    const hasMinLength = (value) => value.length >= 8 ? true : false;
     const hasUpper = (value) => /[A-Z]/.test(value);
     const hasLower = (value) => /[a-z]/.test(value);
     const hasNumber = (value) => /[0-9]/.test(value);
